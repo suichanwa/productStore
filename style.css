@@ -640,10 +640,11 @@
 .frame .rectangle-40 {
   position: absolute;
   width: 1280px;
-  height: 270px;
+  height: 310px;
   top: 3646px;
   left: 0;
-  background-color: #ffffff;
+  background-color: #fff8e8;
+  border-radius: 15px;
 }
 
 .frame .IMAGE-15 {
@@ -653,6 +654,8 @@
   top: 3736px;
   left: 131px;
   object-fit: cover;
+  border-radius: 15px;
+  border: 2px solid #ffe5a8;
 }
 
 .frame .IMAGE-16 {
@@ -662,6 +665,8 @@
   top: 3736px;
   left: 391px;
   object-fit: cover;
+  border-radius: 15px;
+  border: 2px solid #ffe5a8;
 }
 
 .frame .IMAGE-17 {
@@ -671,6 +676,8 @@
   top: 3736px;
   left: 652px;
   object-fit: cover;
+  border-radius: 15px;
+  border: 2px solid #ffe5a8;
 }
 
 .frame .IMAGE-18 {
@@ -680,15 +687,8 @@
   top: 3736px;
   left: 913px;
   object-fit: cover;
-}
-
-.frame .rectangle-41 {
-  position: absolute;
-  width: 1280px;
-  height: 120px;
-  top: 3916px;
-  left: 0;
-  background-color: #ffffff;
+  border-radius: 15px;
+  border: 2px solid #ffe5a8;
 }
 
 .frame .rectangle-42 {
@@ -706,15 +706,15 @@
   height: 733px;
   top: 4036px;
   left: 24px;
-  background-color: #f3f2f1;
+  background-color: #ffe9e9;
   border-radius: 28px;
 }
 
 .frame .rectangle-44 {
   position: absolute;
   width: 162px;
-  height: 24px;
-  top: 4236px;
+  height: 34px;
+  top: 4234px;
   left: 245px;
   border-radius: 4px;
   border: 2px solid;
@@ -725,7 +725,7 @@
   position: absolute;
   width: 604px;
   height: 461px;
-  top: 4308px;
+  top: 4290px;
   left: 24px;
   object-fit: cover;
 }
@@ -736,15 +736,15 @@
   height: 733px;
   top: 4036px;
   left: 652px;
-  background-color: #e7ebee;
+  background-color: #fbe8ff;
   border-radius: 28px;
 }
 
 .frame .rectangle-46 {
   position: absolute;
   width: 160px;
-  height: 24px;
-  top: 4236px;
+  height: 34px;
+  top: 4234px;
   left: 874px;
   border-radius: 4px;
   border: 2px solid;
@@ -754,8 +754,8 @@
 .frame .IMAGE-20 {
   position: absolute;
   width: 604px;
-  height: 420px;
-  top: 4348px;
+  height: 440px;
+  top: 4310px;
   left: 652px;
   object-fit: cover;
 }
@@ -784,14 +784,15 @@
   height: 604px;
   top: 4928px;
   left: 0;
-  background-color: #ffffff;
+  /* background-color: #b9b9b9; */
+  border: 2px solid grey;
 }
 
 .frame .rectangle-50 {
   position: absolute;
   width: 128px;
   height: 40px;
-  top: 5302px;
+  top: 5450px;
   left: 757px;
   border-radius: 4px;
   border: 2px solid;
@@ -800,11 +801,12 @@
 
 .frame .IMAGE-21 {
   position: absolute;
-  width: 604px;
-  height: 604px;
+  width: 580px;
+  height: 580px;
   top: 4928px;
   left: 24px;
   object-fit: cover;
+  padding: 10px;
 }
 
 .frame .rectangle-51 {
@@ -1511,7 +1513,7 @@
   left: 217px;
   font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
-  color: #1967d2;
+  color: #5a5a5a;
   font-size: 14px;
   text-align: center;
   letter-spacing: 0.25px;
@@ -1525,7 +1527,7 @@
   left: 475px;
   font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
-  color: #1967d2;
+  color: #5a5a5a;
   font-size: 14px;
   text-align: center;
   letter-spacing: 0.25px;
@@ -1539,7 +1541,7 @@
   left: 734px;
   font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
-  color: #1967d2;
+  color: #5a5a5a;
   font-size: 14px;
   text-align: center;
   letter-spacing: 0.25px;
@@ -1553,7 +1555,7 @@
   left: 997px;
   font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
-  color: #1967d2;
+  color: #5a5a5a;
   font-size: 14px;
   text-align: center;
   letter-spacing: 0.25px;
@@ -1566,9 +1568,7 @@
   left: 293px;
   font-family: "Roboto-Regular", Helvetica;
   font-size: 16px;
-  text-align: center;
   letter-spacing: 0.1px;
-  line-height: 24px;
   position: absolute;
   font-weight: 400;
   color: #3c4043;
@@ -1582,10 +1582,9 @@
   font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
   color: #3c4043;
-  font-size: 40px;
+  font-size: 29px;
   text-align: center;
   letter-spacing: 0.5px;
-  line-height: 48px;
 }
 
 .frame .text-wrapper-55 {
@@ -1613,7 +1612,6 @@
   font-size: 16px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 24px;
 }
 
 .frame .text-wrapper-57 {
@@ -1632,16 +1630,15 @@
 
 .frame .text-wrapper-58 {
   position: absolute;
-  width: 240px;
-  top: 4114px;
-  left: 834px;
+  width: 290px;
+  top: 4125px;
+  left: 814px;
   font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
   color: #3c4043;
-  font-size: 40px;
+  font-size: 29px;
   text-align: center;
   letter-spacing: 0.5px;
-  line-height: 48px;
 }
 
 .frame .text-wrapper-59 {
@@ -1659,8 +1656,8 @@
 }
 
 .frame .text-wrapper-60 {
-  width: 120px;
-  left: 894px;
+  width: 150px;
+  left: 880px;
   position: absolute;
   top: 4235px;
   font-family: "Roboto-Regular", Helvetica;
@@ -1669,13 +1666,12 @@
   font-size: 16px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 24px;
 }
 
 .frame .text-wrapper-61 {
   position: absolute;
   width: 392px;
-  top: 5116px;
+  top: 5000px;
   left: 757px;
   font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
@@ -1688,7 +1684,7 @@
 .frame .text-wrapper-62 {
   position: absolute;
   width: 386px;
-  top: 5231px;
+  top: 5181px;
   left: 757px;
   font-family: "Roboto-Regular", Helvetica;
   font-weight: 400;
@@ -1700,7 +1696,7 @@
 
 .frame .text-wrapper-63 {
   width: 88px;
-  top: 5309px;
+  top: 5459px;
   left: 777px;
   color: #3c4043;
   position: absolute;
