@@ -873,6 +873,7 @@
     font-size: 14px;
     letter-spacing: 0;
     line-height: 20px;
+    text-decoration: none;
   }
   
   .frame .text-wrapper-4 {
@@ -974,7 +975,7 @@
     font-family: "Roboto-Regular", Helvetica;
     font-weight: 400;
     color: #3c4043;
-    font-size: 57px;
+    font-size: 55px;
     letter-spacing: 2px;
     line-height: 68px;
   }
