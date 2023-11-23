@@ -27,48 +27,6 @@ const displayFourCategories = (data) => {
   }
 };
 
-// const displayImagesForSpecialBoxes = (data) => {
-//   const specialBoxMappings = [
-//     {
-//       imageBox: "IMAGE-19",
-//       categoryWrapper: 53,
-//       titleWrapper: 54,
-//       exploreWrapper: 56,
-//     },
-//     {
-//       imageBox: "IMAGE-20",
-//       categoryWrapper: 57,
-//       titleWrapper: 58,
-//       exploreWrapper: 60,
-//     },
-//   ];
-
-//   specialBoxMappings.forEach((boxMapping) => {
-//     const product = data.find(
-//       (item) => item.id === Number(boxMapping.imageBox.split("-")[1])
-//     );
-
-//     if (product) {
-//       const imageSrc = product.image;
-//       const category = product.category;
-//       const title = product.title;
-//       document.querySelector(`.${boxMapping.imageBox}`).src = imageSrc;
-//       document.querySelector(
-//         `.text-wrapper-${boxMapping.categoryWrapper}`
-//       ).innerText = category;
-//       document.querySelector(
-//         `.text-wrapper-${boxMapping.titleWrapper}`
-//       ).innerText = title;
-//       const exploreWrapper = document.querySelector(
-//         `.text-wrapper-${boxMapping.exploreWrapper}`
-//       );
-//       exploreWrapper.innerText = `Explore ${category}`;
-//     } else {
-//       console.error(`No data for ${boxMapping.imageBox}`);
-//     }
-//   });
-// };
-
 const displayImagesForSpecialBoxes = (data) => {
   const specialBoxMappings = [
     {
@@ -95,10 +53,8 @@ const displayImagesForSpecialBoxes = (data) => {
     let product;
 
     if (boxMapping.imageBox === "IMAGE-21") {
-      // For IMAGE-21, select the 8th product from the data
       product = data[9];
     } else {
-      // For other images, find the product by ID
       product = data.find(
         (item) => item.id === Number(boxMapping.imageBox.split("-")[1])
       );
